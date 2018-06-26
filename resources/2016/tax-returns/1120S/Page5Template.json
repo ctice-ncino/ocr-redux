@@ -1,0 +1,144 @@
+{
+  "boxes": [
+   {
+      "name" : "Schedule M-1 - boxes",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "Schedule M-1",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0,
+               "top" : 0.05,
+               "right" : 0,
+               "bottom" : 0.70
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "key_value_processor",
+                  "AUTO",
+                  "^\\d{1,2}[a-zA-Z]{0,1}",
+                  "(:?^|\\s)(?=.)((?:0|(?:[1-9](?:\\d*|\\d{0,2}(?:,\\d{3})*)))?(?:\\.\\d*[1-9])?)(?!\\S)"
+               ]
+            ]
+         }
+      ]
+    },{
+      "name" : "Schedule M-1 - dashed",
+      "queue" : [
+         {
+            "name" : "3a Depreciation",
+            "tag" : "3a",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.104,
+               "top" : 0.2,
+               "right" : 0.214,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "3b Depreciation - line 1",
+            "tag" : "3b-1",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.104,
+               "top" : 0.215,
+               "right" : 0.214,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "3b Depreciation - line 2",
+            "tag" : "3b-2",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.05,
+               "top" : 0.227,
+               "right" : 0.36,
+               "bottom" : 0.015
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "5a Tax-exempt interest - line 1",
+            "tag" : "5a-1",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.39,
+               "top" : 0.122,
+               "right" : 0.53,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "5a Tax-exempt interest - line 2",
+            "tag" : "5a-2",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.58,
+               "top" : 0.135,
+               "right" : 0.214,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "6a Depreciation - line 1",
+            "tag" : "6a-1",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.58,
+               "top" : 0.2,
+               "right" : 0.214,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "6a Depreciation - line 2",
+            "tag" : "6a-2",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.51,
+               "top" : 0.214,
+               "right" : 0.56,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         }
+      ]
+    },
+    {
+      "name" : "Schedule M-2",
+      "queue" : [
+         {
+            "name" : "8c Balance at end of tax year.",
+            "tag" : "8c",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.735,
+               "top" : 0.427,
+               "right" : 0.1,
+               "bottom" : 0.014
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         }
+      ]
+    }
+  ]
+}

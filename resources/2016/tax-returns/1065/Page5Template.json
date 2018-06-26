@@ -1,0 +1,136 @@
+{
+  "boxes": [
+   {
+      "name" : "Schedule L",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "Schedule L",
+            "psm-type" : "RAW_LINE",
+            "text-boundry" : {
+               "top" : 0.17,
+               "left" : 0.05,
+               "right" : 0.05,
+               "bottom" : 0.35
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "column_grid_processor",
+                  "RAW_LINE",
+                  "^\\([a-zA-Z]*\\)"
+               ]
+            ]
+         }
+      ]
+    },{
+      "name" : "Schedule M-1 - dashed",
+      "type" : "filtered-queue",
+      "queue" : [
+         {
+            "name" : "4a Depreciation",
+            "tag" : "4a",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.204,
+               "top" : 0.805,
+               "right" : 0.214,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "4b Depreciation",
+            "tag" : "4b",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.265,
+               "top" : 0.820,
+               "right" : 0.270,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "6a Tax-exempt interest - line 1",
+            "tag" : "6a-1",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.370,
+               "top" : 0.700,
+               "right" : 0.392,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "6a Tax-exempt interest - line 2",
+            "tag" : "6a-2",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.52,
+               "top" : 0.713,
+               "right" : 0.57,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "7a Tax-exempt interest - line 1",
+            "tag" : "7a-1",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.64,
+               "top" : 0.776,
+               "right" : 0.69,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         },{
+            "name" : "7a Tax-exempt interest - line 2",
+            "tag" : "7a-2",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "left" : 0.52,
+               "top" : 0.790,
+               "right" : 0.57,
+               "bottom" : 0.013
+            },
+            "filters" : [
+               ["slicing", "parse_float"]
+            ]
+         }
+      ]
+    },{
+      "name" : "ScheduleM2",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "ScheduleM2",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "top" : 0.83,
+               "left" : 0.00,
+               "right" : 0.00,
+               "bottom" : 0.00
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "key_value_processor",
+                  "AUTO",
+                  "^([a-zA-Z]|\\d)\\s+.*",
+                  "(:?^|\\s)(?=.)((?:0|(?:[1-9](?:\\d*|\\d{0,2}(?:,\\d{3})*)))?(?:\\.\\d*[1-9])?)(?!\\S)"
+               ]
+            ]
+         }
+      ]
+    }
+  ]
+}

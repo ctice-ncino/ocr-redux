@@ -1,0 +1,29 @@
+{
+  "boxes": [
+   {
+      "name" : "scheduleK",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "scheduleK",
+            "psm-type" : "SPARSE_TEXT",
+            "text-boundry" : {
+               "top" : 0.05,
+               "left" : 0.45,
+               "right" : 0.05,
+               "bottom" : 0.04
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "key_value_processor",
+                  "SPARSE_TEXT",
+                  "^\\d{1,2}[a-zA-Z]{0,1}",
+                  "(:?^|\\s)(?=.)((?:0|(?:[1-9](?:\\d*|\\d{0,2}(?:,\\d{3})*)))?(?:\\.\\d*[1-9])?)(?!\\S)"
+               ]
+            ]
+         }
+      ]
+    }
+  ]
+}

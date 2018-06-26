@@ -1,0 +1,62 @@
+{
+    "tags":
+    {
+        "Schedule L": {
+            "1": "Cash",
+            "2a": "Trade Receivables (net)",
+            "2b": "Trade Receivables (net)",
+            "3": "Inventory",
+            "4": "Marketable Securities",
+            "5": "Marketable Securities",
+            "6": "Other Current Assets",
+            "7a": "Other Non-Current Assets",
+            "7b": "Other Non-Current Assets",
+            "8": "Other Non-Current Assets",
+            "9a": "Buildings",
+            "9b": "Accumulated Depreciation",
+            "10a": "Other Non-Current Assets",
+            "10b": "Accumulated Depreciation",
+            "11": "Land",
+            "12a": "Intangibles (gross)",
+            "12b": "Accumulated Amortization",
+            "13": "Intangibles (net)",
+            "14": "",
+            "15": "Trade Payables",
+            "16": "Current Portion of Long Term Debt",
+            "17": "Other Current Liabilities",
+            "18": "Long Term Debt",
+            "19a": "Other Non-Current Liabilities",
+            "19b": "Long Term Debt",
+            "20": "Other Non-Current Liabilities",
+            "21": "Other Equity",
+            "22": ""
+        },
+        "Schedule M-1": {
+            "1": "",
+            "2": ["Other Income and Expense", "negative"],
+            "3": "",
+            "4a": "Depreciation",
+            "4b": "Other Operating Expenses",
+            "5": "",
+            "6a-1": "Other Income and Expense",
+            "6a-2": "Other Income and Expense",
+            "7a-1": ["Depreciation", "negative"],
+            "7a-2": ["Depreciation", "negative"],
+            "8": "",
+            "9": ""
+        },
+        "Schedule M-2": {
+            "1": "",
+            "2a": "Paid-in Capital",
+            "2b": "Paid-in Capital",
+            "3": "",
+            "4": "Other Equity",
+            "5": "",
+            "6a": "Distributions/Dividends",
+            "6b": "Distributions/Dividends",
+            "7a": ["Other Equity", "negative"],
+            "8": "",
+            "9": ""
+        }
+    }
+}

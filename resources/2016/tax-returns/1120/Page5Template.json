@@ -1,0 +1,281 @@
+{
+  "boxes": [
+    {
+     "name" : "Schedule L",
+     "queue" : [
+        {
+           "scan" : "y",
+           "name" : "Schedule L",
+           "psm-type" : "RAW_LINE",
+           "text-boundry" : {
+              "top" : 0.07,
+              "left" : 0.01,
+              "right" : 0.05,
+              "bottom" : 0.39
+           },
+           "filters" : [
+              [
+                 "slicing",
+                 "column_grid_processor",
+                 "RAW_LINE",
+                 "^\\([a-zA-Z]+\\)"
+              ]
+           ]
+        }
+     ]
+   },{
+     "name" : "ScheduleM1",
+     "queue" : [
+        {
+           "scan" : "y",
+           "name" : "ScheduleM1",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "top" : 0.62,
+              "left" : 0.00,
+              "right" : 0.00,
+              "bottom" : 0.16
+           },
+           "filters" : [
+              [
+                 "slicing",
+                 "key_value_processor",
+                 "AUTO",
+                 "^([a-zA-Z]|\\d{0,2})\\s+.*",
+                 "(:?^|\\s)(?=.)((?:0|(?:[1-9](?:\\d*|\\d{0,2}(?:,\\d{3})*)))?(?:\\.\\d*[1-9])?)(?!\\S)"
+              ]
+           ]
+        }
+     ]
+   },{
+     "name" : "Schedule M-1 - dashed",
+     "queue" : [
+        {
+           "name" : "5a Depreciation",
+           "tag" : "5a",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.26,
+              "top" : 0.758,
+              "right" : 0.35,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "5b Charitable contributions",
+           "tag" : "5b",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.26,
+              "top" : 0.775,
+              "right" : 0.28,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "5c Travel and entertainment - line 1",
+           "tag" : "5c-1",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.26,
+              "top" : 0.790,
+              "right" : 0.28,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "5c Travel and entertainment - line 2",
+           "tag" : "5c-2",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.0,
+              "top" : 0.805,
+              "right" : 0.20,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "7 Tax-exempt interest - line 1",
+           "tag" : "7-1",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.52,
+              "top" : 0.670,
+              "right" : 0.283,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "7 Tax-exempt interest - line 2",
+           "tag" : "7-2",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.52,
+              "top" : 0.681,
+              "right" : 0.57,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "7 Tax-exempt interest - line 3",
+           "tag" : "7-3",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.52,
+              "top" : 0.699,
+              "right" : 0.57,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "8a Depreciation",
+           "tag" : "8a",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.63,
+              "top" : 0.743,
+              "right" : 0.68,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "8b Charitable contributions - line 1",
+           "tag" : "8b-1",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.52,
+              "top" : 0.758,
+              "right" : 0.283,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "8b Charitable contributions - line 2",
+           "tag" : "8b-2",
+           "psm-type" : "AUTO",
+           "text-boundry" : {
+              "left" : 0.52,
+              "top" : 0.773,
+              "right" : 0.283,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        },{
+           "name" : "8b Charitable contributions - line 3",
+           "tag" : "8b-3",
+           "psm-type" : "RAW_LINE",
+           "text-boundry" : {
+              "left" : 0.52,
+              "top" : 0.790,
+              "right" : 0.283,
+              "bottom" : 0.013
+           },
+           "filters" : [
+              ["slicing", "parse_float"]
+           ]
+        }
+     ]
+   }, {
+      "name" : "ScheduleM2",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "ScheduleM2",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "top" : 0.83,
+               "left" : 0.00,
+               "right" : 0.00,
+               "bottom" : 0.00
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "key_value_processor",
+                  "AUTO",
+                  "([a-zA-Z]|\\d{1,2})\\s+[a-zA-Z]{2,}.*",
+                  "(:?^|\\s)(?=.)((?:0|(?:[1-9](?:\\d*|\\d{0,2}(?:,\\d{3})*)))?(?:\\.\\d*[1-9])?)(?!\\S)"
+               ]
+            ]
+         }
+      ]
+    },{
+        "name" : "Schedule M-2 - dashed",
+        "queue" : [
+           {
+              "name" : "3 Other increases (itemize)",
+              "tag" : "3 (itemize) line 1",
+              "psm-type" : "RAW_LINE",
+              "text-boundry" : {
+                 "left" : 0.26,
+                 "top" : 0.88,
+                 "right" : 0.28,
+                 "bottom" : 0.013
+              },
+              "filters" : [
+                 ["slicing", "parse_float"]
+              ]
+           },{
+              "name" : "3 Other increases (itemize)",
+              "tag" : "3 (itemize) line 2",
+              "psm-type" : "RAW_LINE",
+              "text-boundry" : {
+                 "left" : 0.0,
+                 "top" : 0.895,
+                 "right" : 0.20,
+                 "bottom" : 0.013
+              },
+              "filters" : [
+                 ["slicing", "parse_float"]
+              ]
+           },{
+              "name" : "3 Other increases (itemize)",
+              "tag" : "3 (itemize) line 3",
+              "psm-type" : "RAW_LINE",
+              "text-boundry" : {
+                 "left" : 0.0,
+                 "top" : 0.91,
+                 "right" : 0.20,
+                 "bottom" : 0.013
+              },
+              "filters" : [
+                 ["slicing", "parse_float"]
+              ]
+           },{
+              "name" : "6 Other decreases (itemize)",
+              "tag" : "3 (itemize) line 3",
+              "psm-type" : "RAW_LINE",
+              "text-boundry" : {
+                 "left" : 0.73,
+                 "top" : 0.895,
+                 "right" : 0.28,
+                 "bottom" : 0.013
+              },
+              "filters" : [
+                 ["slicing", "parse_float"]
+              ]
+           }
+         ]
+       }
+  ]
+}

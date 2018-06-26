@@ -1,0 +1,29 @@
+{
+  "boxes": [
+   {
+      "name" : "Schedule K",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "scheduleK",
+            "psm-type" : "AUTO",
+            "text-boundry" : {
+               "top" : 0.10,
+               "left" : 0.0,
+               "right" : 0.08,
+               "bottom" : 0.05
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "key_value_processor",
+                  "AUTO",
+                  "^\\d{1,2}[a-zA-Z]{0,1}",
+                  "(:?^|\\s)(?=.)((?:0|(?:[1-9](?:\\d*|\\d{0,2}(?:,\\d{3})*)))?(?:\\.\\d*[1-9])?)(?!\\S)"
+               ]
+            ]
+         }
+      ]
+    }
+  ]
+}

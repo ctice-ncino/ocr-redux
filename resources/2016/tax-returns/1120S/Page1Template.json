@@ -1,0 +1,75 @@
+{
+  "boxes": [
+   {
+      "name" : "name",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "name",
+            "psm-type" : "SPARSE_TEXT",
+            "text-boundry" : {
+               "top" : 0.08,
+               "left" : 0.1,
+               "right" : 0.1,
+               "bottom" : 0.75
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "single_value_processor",
+                  "SPARSE_TEXT",
+                  "name"
+               ]
+            ]
+         }
+      ]
+    },{
+      "name" : "totalAssets",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "totalAssets",
+            "psm-type" : "SPARSE_TEXT",
+            "text-boundry" : {
+               "top" : 0.10,
+               "left" : 0.15,
+               "right" : 0.04,
+               "bottom" : 0.75
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "single_value_processor",
+                  "SPARSE_TEXT",
+                  "f total assets \\(see instruction"
+               ]
+            ]
+         }
+      ]
+    },{
+      "name" : "income",
+      "queue" : [
+         {
+            "scan" : "y",
+            "name" : "income",
+            "psm-type" : "SPARSE_TEXT",
+            "text-boundry" : {
+               "top" : 0.22,
+               "left" : 0.05,
+               "right" : 0.08,
+               "bottom" : 0.20
+            },
+            "filters" : [
+               [
+                  "slicing",
+                  "key_value_processor",
+                  "SPARSE_TEXT",
+                  "^\\d{1,2}[a-zA-Z]{0,1}",
+                  "(:?^|\\s)(?=.)((?:0|(?:[1-9](?:\\d*|\\d{0,2}(?:,\\d{3})*)))?(?:\\.\\d*[1-9])?)(?!\\S)"
+               ]
+            ]
+         }
+      ]
+    }
+  ]
+}

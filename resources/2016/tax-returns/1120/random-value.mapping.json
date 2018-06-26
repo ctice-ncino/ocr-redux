@@ -1,0 +1,664 @@
+{
+	"Page1": [{
+			"x": 685,
+			"y": 383,
+			"random-value": ["words", 75],
+			"tags": ["nameOfPartnership", "name"]
+		},{
+			"x": 1943,
+			"y": 585,
+			"random-value": ["currency"],
+			"tags": ["totalAssets", "total assets"]
+		},{
+			"x": 2077,
+			"y": 784,
+			"random-value": ["currency"],
+			"tags": ["1c", "gross receipts or sales", "Income", "box 1c"]
+		},{
+			"x": 2077,
+			"y": 834,
+			"random-value": ["currency"],
+			"tags": ["2", "cost of goods sold", "Income", "box 2"]
+		},{
+			"x": 2077,
+			"y": 884,
+			"random-value": ["currency"],
+			"tags": ["3", "gross profit", "Income", "box 3"]
+		},{
+			"x": 2077,
+			"y": 934,
+			"random-value": ["currency"],
+			"tags": ["4", "dividends", "Income", "box 4"]
+		},{
+			"x": 2077,
+			"y": 984,
+			"random-value": ["currency"],
+			"tags": ["5", "interest", "Income", "box 5"]
+		},{
+			"x": 2077,
+			"y": 1034,
+			"random-value": ["currency"],
+			"tags": ["6", "gross rents", "Income", "box 6"]
+		},{
+			"x": 2077,
+			"y": 1084,
+			"random-value": ["currency"],
+			"tags": ["7", "gross royalities", "Income", "box 7"
+			]
+		},{
+			"x": 2077,
+			"y": 1134,
+			"random-value": ["currency"],
+			"tags": ["8", "capital gain net income", "Income", "box 8"]
+		},{
+			"x": 2077,
+			"y": 1184,
+			"random-value": ["currency"],
+			"tags": ["9", "net gain", "Income", "box 9"]
+		},{
+			"x": 2077,
+			"y": 1234,
+			"random-value": ["currency"],
+			"tags": ["10", "other income", "Income", "box 10"]
+		},{
+			"x": 2077,
+			"y": 1284,
+			"random-value": ["currency"],
+			"tags": ["11", "total income", "Income", "box 11"]
+		},{
+			"x": 2077,
+			"y": 1334,
+			"random-value": ["currency"],
+			"tags": ["12", "compensation of officers", "Deductions", "box 12"]
+		},{
+			"x": 2077,
+			"y": 1384,
+			"random-value": ["currency"],
+			"tags": ["13", "salaries and wages", "Deductions", "box 13"]
+		},{
+			"x": 2077,
+			"y": 1434,
+			"random-value": ["currency"],
+			"tags": ["14", "repairs and maintenance", "Deductions", "box 14"]
+		},{
+			"x": 2077,
+			"y": 1484,
+			"random-value": ["currency"],
+			"tags": ["15", "bad debts", "Deductions", "box 15"]
+		},{
+			"x": 2077,
+			"y": 1534,
+			"random-value": ["currency"],
+			"tags": ["16", "rents", "Deductions", "box 16"]
+		},{
+			"x": 2077,
+			"y": 1584,
+			"random-value": ["currency"],
+			"tags": ["17", "taxes and income", "Deductions", "box 17"]
+		},{
+			"x": 2077,
+			"y": 1634,
+			"random-value": ["currency"],
+			"tags": ["18", "interest", "Deductions", "box 18"]
+		},{
+			"x": 2077,
+			"y": 1684,
+			"random-value": ["currency"],
+			"tags": ["19", "charitable contributions", "Deductions", "box 19"]
+		},{
+			"x": 2077,
+			"y": 1734,
+			"random-value": ["currency"],
+			"tags": [
+				"20",
+				"depreciation from Form 4562 not claimed on Form 1125-A or elsewhere on return",
+				"Deductions",
+				"box 20"
+			]
+		},{
+			"x": 2077,
+			"y": 1834,
+			"random-value": ["currency"],
+			"tags": ["22", "advertising", "Deductions", "box 22"]
+		},{
+			"x": 2077,
+			"y": 1884,
+			"random-value": ["currency"],
+			"tags": ["23", "pension, profit-sharing, etc., plans", "Deductions", "box 23"]
+		},{
+			"x": 2077,
+			"y": 1934,
+			"random-value": ["currency"],
+			"tags": ["24", "employee benefit programs", "Deductions", "box 24"]
+		},{
+			"x": 2077,
+			"y": 1984,
+			"random-value": ["currency"],
+			"tags": ["25", "domestic production activities deduction", "Deductions", "box 25"]
+		},{
+			"x": 2077,
+			"y": 2034,
+			"random-value": ["currency"],
+			"tags": ["26", "other deductions", "Deductions", "box 26"]
+		},{
+			"x": 2077,
+			"y": 2084,
+			"random-value": ["currency"],
+			"tags": ["27", "total deductions", "Deductions", "box 27"]
+		},{
+			"x": 2077,
+			"y": 2134,
+			"random-value": ["currency"],
+			"tags": [
+				"28",
+				"taxable income before net operating loss deduction and special deductions",
+				"Deductions",
+				"box 28"
+			]
+		},{
+			"x": 1660,
+			"y": 2184,
+			"random-value": ["currency"],
+			"tags": ["29a", "net operating loss deductions", "Deductions", "box 29a"]
+		}
+	],
+	"Page5": [
+		{
+			"x": 2076,
+			"y": 334,
+			"random-value": ["currency"],
+			"tags": [
+				"d-2",
+				"cash",
+				"End of tax year",
+				"Schedule L",
+				"box 1(d)"]
+		},{
+			"x": 2076,
+			"y": 434,
+			"random-value": ["currency"],
+			"tags": [
+				"d-4",
+				"less allowances for bad debts",
+				"End of tax year",
+				"Schedule L",
+				"box 2b(d)"]
+		},{
+			"x": 2076,
+			"y": 484,
+			"random-value": ["currency"],
+			"tags": [
+				"d-5",
+				"inventories",
+				"End of tax year",
+				"Schedule L",
+				"box 3(d)"]
+		},{
+			"x": 2076,
+			"y": 534,
+			"random-value": ["currency"],
+			"tags": [
+				"d-6",
+				"U.S. government obligations",
+				"End of tax year",
+				"Schedule L",
+				"box 4(d)"]
+		},{
+			"x": 2076,
+			"y": 584,
+			"random-value": ["currency"],
+			"tags": [
+				"d-7",
+				"tax-exempt securities",
+				"End of tax year",
+				"Schedule L",
+				"box 5(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 634,
+			"random-value": ["currency"],
+			"tags": [
+				"d-8",
+				"other current assets",
+				"End of tax year",
+				"Schedule L",
+				"box 6(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 684,
+			"random-value": ["currency"],
+			"tags": [
+				"d-8",
+				"loans to shareholders",
+				"End of tax year",
+				"Schedule L",
+				"box 7(d)"]
+		},{
+			"x": 2076,
+			"y": 734,
+			"random-value": ["currency"],
+			"tags": [
+				"d-9",
+				"mortgage and real estate loans",
+				"End of tax year",
+				"Schedule L",
+				"box 8(d)"]
+		},{
+			"x": 2076,
+			"y": 784,
+			"random-value": ["currency"],
+			"tags": [
+				"d-10",
+				"other investments",
+				"End of tax year",
+				"Schedule L",
+				"box 9(d)"
+			]
+		},{
+			"x": 1717,
+			"y": 834,
+			"random-value": ["currency"],
+			"tags": [
+				"c-11",
+				"buildings and other depreciable assets",
+				"End of tax year",
+				"Schedule L",
+				"box 10a(c)"
+			]
+		},{
+			"x": 1735,
+			"y": 884,
+			"random-value": ["currency"],
+			"tags": [
+				"c-12",
+				"less accumulated depreciation",
+				"End of tax year",
+				"Schedule L",
+				"box 10b(c)"
+			]
+		},{
+			"x": 2076,
+			"y": 884,
+			"random-value": ["currency"],
+			"tags": [
+				"d-12",
+				"less accumulated depreciation",
+				"End of tax year",
+				"Schedule L",
+				"box 10b(d)"
+			]
+		},{
+			"x": 1717,
+			"y": 934,
+			"random-value": ["currency"],
+			"tags": [
+				"c-13",
+				"depletable assets",
+				"End of tax year",
+				"Schedule L",
+				"box 11a(c)"
+			]
+		},{
+			"x": 1735,
+			"y": 984,
+			"random-value": ["currency"],
+			"tags": [
+				"c-14",
+				"less accumulated depletion",
+				"End of tax year",
+				"Schedule L",
+				"box 11b(c)"
+			]
+		},{
+			"x": 2076,
+			"y": 984,
+			"random-value": ["currency"],
+			"tags": [
+				"d-14",
+				"less accumulated depletion",
+				"End of tax year",
+				"Schedule L",
+				"box 11b(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1034,
+			"random-value": ["currency"],
+			"tags": [
+				"d-15",
+				"land",
+				"End of tax year",
+				"Schedule L",
+				"box 12(d)"
+			]
+		},{
+			"x": 1717,
+			"y": 1084,
+			"random-value": ["currency"],
+			"tags": [
+				"c-16",
+				"intangible assets",
+				"End of tax year",
+				"Schedule L",
+				"box 13a(c)"
+			]
+		},{
+			"x": 1735,
+			"y": 1134,
+			"random-value": ["currency"],
+			"tags": [
+				"c-17",
+				"less accumulated amortization",
+				"End of tax year",
+				"Schedule L",
+				"box 13b(c)"
+			]
+		},{
+			"x": 2076,
+			"y": 1134,
+			"random-value": ["currency"],
+			"tags": [
+				"d-17",
+				"less accumulated amortization",
+				"End of tax year",
+				"Schedule L",
+				"box 13b(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1184,
+			"random-value": ["currency"],
+			"tags": [
+				"d-18",
+				"other assets (attach statement)",
+				"Schedule L",
+				"box 14(d)"]
+		},{
+			"x": 2076,
+			"y": 1234,
+			"random-value": ["currency"],
+			"tags": [
+				"d-19",
+				"total assets",
+				"Schedule L",
+				"box 15(d)"]
+		},{
+			"x": 2076,
+			"y": 1334,
+			"random-value": ["currency"],
+			"tags": [
+				"d-20",
+				"accounts payable",
+				"Liabilities and Shareholders' Equity",
+				"End of tax year",
+				"Schedule L",
+				"box 16(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1384,
+			"random-value": ["currency"],
+			"tags": [
+				"d-21",
+				"mortgages, notes, bonds payable in less than 1 year",
+				"Liabilities and Shareholders' Equity",
+				"End of tax year",
+				"Schedule L",
+				"box 17(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1434,
+			"random-value": ["currency"],
+			"tags": [
+				"d-22",
+				"other current liabilities (attach statement)",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 18(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1484,
+			"random-value": ["currency"],
+			"tags": [
+				"d-23",
+				"loans from shareholders",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 19(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1534,
+			"random-value": ["currency"],
+			"tags": [
+				"d-24",
+				"mortgages, notes, bonds payable in 1 year or more",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 20(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1584,
+			"random-value": ["currency"],
+			"tags": [
+				"d-25",
+				"other liabilities (attach statement)",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 21(d)"
+			]
+		},{
+			"x": 1717,
+			"y": 1634,
+			"random-value": ["currency"],
+			"tags": [
+				"c-26",
+				"capital stock: a Preferred stock",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 22a(c)"
+			]
+		},{
+			"x": 1717,
+			"y": 1684,
+			"random-value": ["currency"],
+			"tags": [
+				"c-27",
+				"b common stock",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 22b(c)"
+			]
+		},{
+			"x": 2076,
+			"y": 1684,
+			"random-value": ["currency"],
+			"tags": [
+				"d-27",
+				"b common stock",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 22b(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1734,
+			"random-value": ["currency"],
+			"tags": [
+				"d-28",
+				"additional paid-in capital",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 23(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1784,
+			"random-value": ["currency"],
+			"tags": [
+				"d-29",
+				"retained earnings - appropriated",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 24(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1834,
+			"random-value": ["currency"],
+			"tags": [
+				"d-30",
+				"retained earnings - unappropriated",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 25(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1884,
+			"random-value": ["currency"],
+			"tags": [
+				"d-31",
+				"adjustments to shareholders' equity",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 26(d)"
+			]
+		},{
+			"x": 2091,
+			"y": 1934,
+			"random-value": ["currency"],
+			"tags": [
+				"d-32",
+				"less cost of treasury stock",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 27(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 1984,
+			"random-value": ["currency"],
+			"tags": [
+				"d-33",
+				"total liabilities and shareholders' equity",
+				"End of tax year",
+				"Schedule L",
+				"Liabilities and Shareholders' Equity",
+				"box 28(d)"
+			]
+		},{
+			"x": 2076,
+			"y": 2836,
+			"random-value": ["currency"],
+			"tags": ["a Cash", "Schedule M-2", "box 5a"]
+		},{
+			"x": 2076,
+			"y": 2886,
+			"random-value": ["currency"],
+			"tags": ["b Stock", "Schedule M-2", "box 5b"]
+		},{
+			"x": 2076,
+			"y": 2936,
+			"random-value": ["currency"],
+			"tags": ["c Property", "Schedule M-2", "box 5c"]
+		},{
+			"x": 2076,
+			"y": 3086,
+			"random-value": ["currency"],
+			"tags": ["end of year balance", "Schedule M-2", "box 8"]
+		},{
+			"x": 745,
+			"y": 2537,
+			"random-value": ["currency"],
+			"tags": ["line 1", "depreciation", "Schedule M-1", "box 5a"]
+		},{
+			"x": 745,
+			"y": 2588,
+			"random-value": ["currency"],
+			"tags": ["line 1", "charitable contributions", "Schedule M-1", "box 5b"]
+		},{
+			"x": 745,
+			"y": 2638,
+			"random-value": ["currency"],
+			"tags": ["line 1", "travel entertainment", "Schedule M-1", "box 5c"]
+		},{
+			"x": 320,
+			"y": 2685,
+			"random-value": ["currency"],
+			"tags": ["line 2", "travel entertainment", "Schedule M-1", "box 5c"]
+		},{
+			"x": 680,
+			"y": 2930,
+			"random-value": ["currency"],
+			"tags": ["line 1", "other increases", "Schedule M-1", "box 3"]
+		},{
+			"x": 280,
+			"y": 2985,
+			"random-value": ["currency"],
+			"tags": ["line 2", "other increases", "Schedule M-2", "box 3"]
+		},{
+			"x": 280,
+			"y": 3035,
+			"random-value": ["currency"],
+			"tags": ["line 3", "other increases", "Schedule M-2", "box 3"]
+		},{
+			"x": 1850,
+			"y": 2235,
+			"random-value": ["currency"],
+			"tags": ["line 1", "other increases", "Schedule M-1", "box 7"]
+		},{
+			"x": 1481,
+			"y": 2286,
+			"random-value": ["currency"],
+			"tags": ["line 2", "other increases", "Schedule M-1", "box 7"]
+		},{
+			"x": 1481,
+			"y": 2338,
+			"random-value": ["currency"],
+			"tags": ["line 3", "other increases", "Schedule M-1", "box 7"]
+		},{
+			"x": 1850,
+			"y": 2483,
+			"random-value": ["currency"],
+			"tags": ["line 1", "depreciation", "Schedule M-1", "box 8a"]
+		},{
+			"x": 1850,
+			"y": 2537,
+			"random-value": ["currency"],
+			"tags": ["line 1", "charitable contributions", "Schedule M-1", "box 8b"]
+		},{
+			"x": 1490,
+			"y": 2583,
+			"random-value": ["currency"],
+			"tags": ["line 2", "distributions", "Schedule M-1", "box 8b"]
+		},{
+			"x": 1490,
+			"y": 2634,
+			"random-value": ["currency"],
+			"tags": ["line 3", "distributions", "Schedule M-1", "box 8b"]
+		},{
+			"x": 1870,
+			"y": 2984,
+			"random-value": ["currency"],
+			"tags": ["line 3", "other decreases", "Schedule M-2", "box 6"]
+		}
+	]
+}

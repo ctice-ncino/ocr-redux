@@ -1,0 +1,53 @@
+{
+    "tags": 
+    { 
+        "Schedule M-1 - boxes": {
+            "1": "",
+            "2": "Other Income and Expense",
+            "3a": "Depreciation",
+            "3b-1": "Other Operating Expenses",
+            "3b-2": "Other Operating Expenses",
+            "4": "",
+            "5a-1": "Other Income and Expense",
+            "5a-2": "Other Income and Expense",
+            "6a-1": "Depreciation",
+            "6a-2": "Depreciation",
+            "7": "",
+            "8": ""
+        },
+        "Schedule M-1 - dashed": {
+            "1": "",
+            "2": "Other Income and Expense",
+            "3a": "Depreciation",
+            "3b-1": "Other Operating Expenses",
+            "3b-2": "Other Operating Expenses",
+            "4": "",
+            "5a-1": "Other Income and Expense",
+            "5a-2": "Other Income and Expense",
+            "6a-1": "Depreciation",
+            "6a-2": "Depreciation",
+            "7": "",
+            "8": ""
+        },
+        "Schedule M-2": {
+            "1a": "",
+            "1b": "",
+            "1c": "",
+            "2a": "",
+            "3a": "Other Equity",
+            "3b": "Other Equity",
+            "4a": "",
+            "5a": "Other Equity",
+            "5b": "Other Equity",
+            "6a": "", 
+            "6b": "", 
+            "6c": "", 
+            "7a": "Distributions/Dividends",
+            "7b": "Distributions/Dividends",
+            "7c": "Distributions/Dividends",
+            "8a": "",
+            "8b": "",
+            "8c": ""
+        }
+    }
+}
